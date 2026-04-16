@@ -16,13 +16,13 @@
     "m_GUID": -1234567890123456789,
     "m_category": "Night Session",
     "m_constraintList": [],
-    "m_description": "Oyuna göre akıllı tıklama eklendi. Play ve Submit butonlarını oyuna özel vurur.",
+    "m_description": "Ekran Okuma moduna geçildi. Koordinat yerine 'PLAY', 'START', 'SUBMIT' ve 'NO' yazılarını arayıp bulduğuna tıklar.",
     "m_descriptionOpen": false,
     "m_enabled": false,
     "m_excludeLog": false,
     "m_headingColor": 0,
     "m_isOrCondition": false,
-    "m_name": "Oto Tiklayici Master Pro (Akilli Kilit v2)",
+    "m_name": "Oto Tiklayici Master Pro (Akilli Metin Okuyucu)",
     "m_triggerList": [
       {
         "m_SIGUID": -1000000000000000001, "m_classType": "MacroEnabledTrigger", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
@@ -30,7 +30,7 @@
     ],
     "m_actionList": [
       {"enable": true, "m_SIGUID": -2000000000000000001, "m_classType": "KeepScreenOnAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
-      {"m_message": "🚀 Sistem Aktif!\nAkıllı Koruma Modu Devrede...", "m_longDuration": true, "m_SIGUID": -2000000000000000002, "m_classType": "ToastAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
+      {"m_message": "🚀 Sistem Aktif!\nYapay Zeka Metin Okuma Devrede...", "m_longDuration": true, "m_SIGUID": -2000000000000000002, "m_classType": "ToastAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
       
       {
         "booleanDictionaryKeys": {"keys": []}, "dictionaryKeys": [], "dictionaryOrArrayType": -1, "existingManualKeyType": 0, "m_booleanInvert": false, "m_darkMode": -1, "m_doubleRandomMax": 0.0, "m_doubleRandomMin": 0.0, "m_falseLabel": "false", "m_intExpression": false, "m_intRandom": false, "m_intRandomMax": 0, "m_intRandomMin": 0, "m_intValueDecrement": false, "m_intValueIncrement": false, "m_newBooleanValue": false, "m_newDoubleValue": 0.0, "m_newIntValue": 1, "m_newStringValue": "", "m_trueLabel": "true", "m_userPrompt": false, "m_userPromptEmptyAtStart": false, "m_userPromptPassword": false, "m_userPromptShowCancel": true, "m_userPromptStopAfterCancel": true,
@@ -91,7 +91,7 @@
       },
       
       {
-        "m_fixedOptionCount": 8, "m_option": 1, "childrenCollapsed": false, "dontLogIfConditionIsFalse": false, "disableLogging": false,
+        "m_fixedOptionCount": 15, "m_option": 1, "childrenCollapsed": false, "dontLogIfConditionIsFalse": false, "disableLogging": false,
         "m_SIGUID": -3000000000000000001, "m_classType": "LoopAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
       },
       
@@ -108,34 +108,19 @@
         ], "m_isDisabled": false, "m_isOrCondition": false
       },
 
-      {
-        "childrenCollapsed": false, "dontLogIfConditionIsFalse": true, "m_SIGUID": -7000000000000000001, "m_classType": "IfConditionAction", "m_constraintList": [{"checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 1, "m_stringComparisonType": 0, "m_stringEqual": true, "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true}, "m_SIGUID": -7000000000000000002, "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false}], "m_isDisabled": false, "m_isOrCondition": false
-      },
-      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 2, "contentDescription": "", "longClick": false, "textMatchOption": 0, "xyPercentages": true, "xyPoint": {"x": 50, "y": 61}, "type": "Click"}, "disableLogging": false, "m_SIGUID": -7000000000000000003, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
-      {"m_delayInMilliSeconds": 500, "m_delayInSeconds": 0, "m_useAlarm": true, "unitForVariables": 0, "disableLogging": false, "m_SIGUID": -7000000000000000004, "m_classType": "PauseAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
-      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 2, "contentDescription": "", "longClick": false, "textMatchOption": 0, "xyPercentages": true, "xyPoint": {"x": 50, "y": 86}, "type": "Click"}, "disableLogging": false, "m_SIGUID": -7000000000000000005, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
+      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 0, "textToClick": "PLAY", "textMatchOption": 1, "type": "Click"}, "disableLogging": true, "m_SIGUID": -8000000000000000001, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
+      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 0, "textToClick": "START", "textMatchOption": 1, "type": "Click"}, "disableLogging": true, "m_SIGUID": -8000000000000000002, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
+      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 0, "textToClick": "SUBMIT", "textMatchOption": 1, "type": "Click"}, "disableLogging": true, "m_SIGUID": -8000000000000000003, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
+      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 0, "textToClick": "NO", "textMatchOption": 1, "type": "Click"}, "disableLogging": true, "m_SIGUID": -8000000000000000004, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
+      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 0, "textToClick": "No Thanks", "textMatchOption": 1, "type": "Click"}, "disableLogging": true, "m_SIGUID": -8000000000000000005, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
       
-      {
-        "childrenCollapsed": false, "dontLogIfConditionIsFalse": true, "m_SIGUID": -7000000000000000006, "m_classType": "ElseIfAction", "m_constraintList": [{"checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 8, "m_stringComparisonType": 0, "m_stringEqual": true, "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true}, "m_SIGUID": -7000000000000000007, "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false}], "m_isDisabled": false, "m_isOrCondition": false
-      },
-      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 2, "contentDescription": "", "longClick": false, "textMatchOption": 0, "xyPercentages": true, "xyPoint": {"x": 50, "y": 74}, "type": "Click"}, "disableLogging": false, "m_SIGUID": -7000000000000000008, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
-      {"m_delayInMilliSeconds": 500, "m_delayInSeconds": 0, "m_useAlarm": true, "unitForVariables": 0, "disableLogging": false, "m_SIGUID": -7000000000000000009, "m_classType": "PauseAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
-      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 2, "contentDescription": "", "longClick": false, "textMatchOption": 0, "xyPercentages": true, "xyPoint": {"x": 50, "y": 94}, "type": "Click"}, "disableLogging": false, "m_SIGUID": -7000000000000000010, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
-
-      {
-        "disableLogging": false, "m_SIGUID": -7000000000000000011, "m_classType": "ElseAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
-      },
-      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 2, "contentDescription": "", "longClick": false, "textMatchOption": 0, "xyPercentages": true, "xyPoint": {"x": 50, "y": 65}, "type": "Click"}, "disableLogging": false, "m_SIGUID": -7000000000000000012, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
-      {"m_delayInMilliSeconds": 500, "m_delayInSeconds": 0, "m_useAlarm": true, "unitForVariables": 0, "disableLogging": false, "m_SIGUID": -7000000000000000013, "m_classType": "PauseAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
-      {"action": 0, "uiInteractionConfiguration": {"blocking": false, "checkOverlays": false, "clickOption": 2, "contentDescription": "", "longClick": false, "textMatchOption": 0, "xyPercentages": true, "xyPoint": {"x": 50, "y": 86}, "type": "Click"}, "disableLogging": false, "m_SIGUID": -7000000000000000014, "m_classType": "UIInteractionAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
-      
-      {"m_SIGUID": -7000000000000000015, "m_classType": "EndIfAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
+      {"m_delayInMilliSeconds": 500, "m_delayInSeconds": 1, "m_useAlarm": true, "unitForVariables": 0, "disableLogging": false, "m_SIGUID": -8000000000000000006, "m_classType": "PauseAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
       
       {
         "disableLogging": false, "m_SIGUID": -5000000000000000003, "m_classType": "ElseAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
       },
       
-      {"m_message": "⚠️ Yanlışlıkla çıkıldı, oyuna geri dönülüyor!", "m_longDuration": false, "m_SIGUID": -5000000000000000005, "m_classType": "ToastAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
+      {"m_message": "⚠️ Oyun arka plana düştü, tekrar açılıyor! (Durmak için Makroyu kapatın)", "m_longDuration": false, "m_SIGUID": -5000000000000000005, "m_classType": "ToastAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false},
       
       {
         "childrenCollapsed": false, "dontLogIfConditionIsFalse": true, "m_SIGUID": -5000000000000010006, "m_classType": "IfConditionAction", "m_constraintList": [{"checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 1, "m_stringComparisonType": 0, "m_stringEqual": true, "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true}, "m_SIGUID": -5000000000000010007, "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false}], "m_isDisabled": false, "m_isOrCondition": false

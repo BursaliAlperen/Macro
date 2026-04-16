@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://macrodroid.com/schema/macro.xsd">
+    <id>-99</id>
+    <name>Oyun Degistirici (Hatasiz)</name>
+    <description>Her 10dk'da bir farkli oyun acar ve start/no/Submit yazilarina tiklar</description>
+    <trigger>
+        <regularInterval>600</regularInterval>
+    </trigger>
+    <actions>
+        <setVariableAction>
+            <stringVar>prev_game</stringVar>
+            <value xsi:type="xsd:string"></value>
+        </setVariableAction>
+        <loopAction>
+            <condition type="1">
+                <b>true</b>
+            </condition>
+            <action>
+                <setVariableAction>
+                    <stringVar>game_list</stringVar>
+                    <value xsi:type="xsd:string">com.app.nordific.conquest.adventure,com.app.lost.train.quest,com.app.magnificent.pets.adventure,com.app.pixel.adventure,com.app.illusion.show.magic,com.app.cyberlooters.game</value>
+                    <array>true</array>
+                    <separator>,</separator>
+                </setVariableAction>
+                <setVariableAction>
+                    <intVar>random_index</intVar>
+                    <value xsi:type="xsd:int">0</value>
+                    <expression>Math.floor(Math.random() * 6)</expression>
+                </setVariableAction>
+                <setVariableAction>
+                    <stringVar>current_game</stringVar>
+                    <value xsi:type="xsd:string">[lv=game_list[{v=random_index}]]</value>
+                </setVariableAction>
+                <ifCondition>
+                    <condition type="1">
+                        <lhs>[v=current_game]</lhs>
+                        <op>2</op>
+                        <rhs>[v=prev_game]</rhs>
+                    </condition>
+                    <action>
+                        <setVariableAction>
+                            <intVar>random_index</intVar>
+                            <value xsi:type="xsd:int">0</value>
+                            <expression>([v=random_index] + 1) % 6</expression>
+                        </setVariableAction>
+                        <setVariableAction>
+                            <stringVar>current_game</stringVar>
+                            <value xsi:type="xsd:string">[lv=game_list[{v=random_index}]]</value>
+                        </setVariableAction>
+                    </action>
+                </ifCondition>
+                <launchApplicationAction>
+                    <packageName>[v=current_game]</packageName>
+                    <useRoot>false</useRoot>
+                </launchApplicationAction>
+                <waitAction>
+                    <duration>4</duration>
+                </waitAction>
+                <uiInteractionAction>
+                    <type>1</type>
+                    <text>start</text>
+                    <matchType>2</matchType>
+                    <useScreenContent>true</useScreenContent>
+                </uiInteractionAction>
+                <waitAction>
+                    <duration>2</duration>
+                </waitAction>
+                <uiInteractionAction>
+                    <type>1</type>
+                    <text>no</text>
+                    <matchType>2</matchType>
+                    <useScreenContent>true</useScreenContent>
+                </uiInteractionAction>
+                <waitAction>
+                    <duration>2</duration>
+                </waitAction>
+                <uiInteractionAction>
+                    <type>1</type>
+                    <text>Submit</text>
+                    <matchType>2</matchType>
+                    <useScreenContent>true</useScreenContent>
+                </uiInteractionAction>
+                <waitAction>
+                    <duration>600</duration>
+                </waitAction>
+                <killApplicationAction>
+                    <packageName>[v=current_game]</packageName>
+                    <forceRoot>false</forceRoot>
+                </killApplicationAction>
+                <setVariableAction>
+                    <stringVar>prev_game</stringVar>
+                    <value xsi:type="xsd:string">[v=current_game]</value>
+                </setVariableAction>
+            </action>
+        </loopAction>
+    </actions>
+    <isEnabled>true</isEnabled>
+    <excludeFromLog>false</excludeFromLog>
+    <category>Oyun</category>
+    <icon>2131230848</icon>
+</macro>

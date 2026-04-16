@@ -69,7 +69,7 @@
       },
       {
         "m_fixedOptionCount": 99999,
-        "m_option": 0,
+        "m_option": 1,
         "childrenCollapsed": false,
         "dontLogIfConditionIsFalse": false,
         "disableLogging": false,
@@ -80,7 +80,7 @@
         "m_isOrCondition": false
       },
       {
-        "booleanDictionaryKeys": {"keys": []}, "dictionaryKeys": [], "dictionaryOrArrayType": -1, "existingManualKeyType": 0, "m_booleanInvert": false, "m_darkMode": -1, "m_doubleRandomMax": 0.0, "m_doubleRandomMin": 0.0, "m_falseLabel": "false", "m_intExpression": false, "m_intRandom": true, "m_intRandomMax": 7, "m_intRandomMin": 0, "m_intValueDecrement": false, "m_intValueIncrement": false, "m_newBooleanValue": false, "m_newDoubleValue": 0.0, "m_newIntValue": 0, "m_newStringValue": "", "m_trueLabel": "true", "m_userPrompt": false, "m_userPromptEmptyAtStart": false, "m_userPromptPassword": false, "m_userPromptShowCancel": true, "m_userPromptStopAfterCancel": true,
+        "booleanDictionaryKeys": {"keys": []}, "dictionaryKeys": [], "dictionaryOrArrayType": -1, "existingManualKeyType": 0, "m_booleanInvert": false, "m_darkMode": -1, "m_doubleRandomMax": 0.0, "m_doubleRandomMin": 0.0, "m_falseLabel": "false", "m_intExpression": false, "m_intRandom": false, "m_intRandomMax": 0, "m_intRandomMin": 0, "m_intValueDecrement": false, "m_intValueIncrement": true, "m_newBooleanValue": false, "m_newDoubleValue": 0.0, "m_newIntValue": 1, "m_newStringValue": "", "m_trueLabel": "true", "m_userPrompt": false, "m_userPromptEmptyAtStart": false, "m_userPromptPassword": false, "m_userPromptShowCancel": true, "m_userPromptStopAfterCancel": true,
         "m_variable": {
           "dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true
         },
@@ -91,12 +91,38 @@
         "m_isOrCondition": false
       },
       {
-        "booleanDictionaryKeys": {"keys": []}, "dictionaryKeys": [], "dictionaryOrArrayType": -1, "existingManualKeyType": 0, "m_booleanInvert": false, "m_darkMode": -1, "m_doubleRandomMax": 0.0, "m_doubleRandomMin": 0.0, "m_falseLabel": "false", "m_intExpression": false, "m_intRandom": false, "m_intRandomMax": 0, "m_intRandomMin": 0, "m_intValueDecrement": false, "m_intValueIncrement": true, "m_newBooleanValue": false, "m_newDoubleValue": 0.0, "m_newIntValue": 1, "m_newStringValue": "", "m_trueLabel": "true", "m_userPrompt": false, "m_userPromptEmptyAtStart": false, "m_userPromptPassword": false, "m_userPromptShowCancel": true, "m_userPromptStopAfterCancel": true,
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": false,
+        "m_SIGUID": -2000000000000000100,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": true, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 8, "m_stringComparisonType": 0, "m_stringEqual": true, 
+            "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true},
+            "m_SIGUID": -2000000000000000101,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {"keys": []}, "dictionaryKeys": [], "dictionaryOrArrayType": -1, "existingManualKeyType": 0, "m_booleanInvert": false, "m_darkMode": -1, "m_doubleRandomMax": 0.0, "m_doubleRandomMin": 0.0, "m_falseLabel": "false", "m_intExpression": false, "m_intRandom": false, "m_intRandomMax": 0, "m_intRandomMin": 0, "m_intValueDecrement": false, "m_intValueIncrement": false, "m_newBooleanValue": false, "m_newDoubleValue": 0.0, "m_newIntValue": 1, "m_newStringValue": "", "m_trueLabel": "true", "m_userPrompt": false, "m_userPromptEmptyAtStart": false, "m_userPromptPassword": false, "m_userPromptShowCancel": true, "m_userPromptStopAfterCancel": true,
         "m_variable": {
-          "dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 1, "m_name": "oyunSayac", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true
+          "dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true
         },
-        "m_SIGUID": -2000000000000000005,
+        "m_SIGUID": -2000000000000000102,
         "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -2000000000000000103,
+        "m_classType": "EndIfAction",
         "m_constraintList": [],
         "m_isDisabled": false,
         "m_isOrCondition": false
@@ -108,7 +134,7 @@
         "m_classType": "IfConditionAction",
         "m_constraintList": [
           {
-            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 0, "m_stringComparisonType": 0, "m_stringEqual": true, 
+            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 1, "m_stringComparisonType": 0, "m_stringEqual": true, 
             "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true},
             "m_SIGUID": -2000000000000000007,
             "m_classType": "MacroDroidVariableConstraint",
@@ -129,7 +155,7 @@
         "m_classType": "ElseIfAction",
         "m_constraintList": [
           {
-            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 1, "m_stringComparisonType": 0, "m_stringEqual": true, 
+            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 2, "m_stringComparisonType": 0, "m_stringEqual": true, 
             "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true},
             "m_SIGUID": -2000000000000000011,
             "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
@@ -146,7 +172,7 @@
         "m_classType": "ElseIfAction",
         "m_constraintList": [
           {
-            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 2, "m_stringComparisonType": 0, "m_stringEqual": true, 
+            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 3, "m_stringComparisonType": 0, "m_stringEqual": true, 
             "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true},
             "m_SIGUID": -2000000000000000015,
             "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
@@ -163,7 +189,7 @@
         "m_classType": "ElseIfAction",
         "m_constraintList": [
           {
-            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 3, "m_stringComparisonType": 0, "m_stringEqual": true, 
+            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 4, "m_stringComparisonType": 0, "m_stringEqual": true, 
             "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true},
             "m_SIGUID": -2000000000000000019,
             "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
@@ -180,7 +206,7 @@
         "m_classType": "ElseIfAction",
         "m_constraintList": [
           {
-            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 4, "m_stringComparisonType": 0, "m_stringEqual": true, 
+            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 5, "m_stringComparisonType": 0, "m_stringEqual": true, 
             "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true},
             "m_SIGUID": -2000000000000000023,
             "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
@@ -197,7 +223,7 @@
         "m_classType": "ElseIfAction",
         "m_constraintList": [
           {
-            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 5, "m_stringComparisonType": 0, "m_stringEqual": true, 
+            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 6, "m_stringComparisonType": 0, "m_stringEqual": true, 
             "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true},
             "m_SIGUID": -2000000000000000027,
             "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
@@ -214,7 +240,7 @@
         "m_classType": "ElseIfAction",
         "m_constraintList": [
           {
-            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 6, "m_stringComparisonType": 0, "m_stringEqual": true, 
+            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 7, "m_stringComparisonType": 0, "m_stringEqual": true, 
             "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true},
             "m_SIGUID": -2000000000000000031,
             "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
@@ -231,7 +257,7 @@
         "m_classType": "ElseIfAction",
         "m_constraintList": [
           {
-            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 7, "m_stringComparisonType": 0, "m_stringEqual": true, 
+            "checkCase": false, "dictionaryKeys": {"keys": []}, "dictionaryType": 2, "enableRegex": false, "m_booleanValue": false, "m_doubleValue": 0.0, "m_intCompareVariable": false, "m_intGreaterThan": false, "m_intLessThan": false, "m_intNotEqual": false, "m_intValue": 8, "m_stringComparisonType": 0, "m_stringEqual": true, 
             "m_variable": {"dictionary": {"entries": [], "isArray": false, "variableType": 4, "type": "Dictionary"}, "isActionBlockWorkingVar": false, "isLocalVar": true, "isSecure": false, "m_booleanValue": false, "m_decimalValue": 0.0, "m_intValue": 0, "m_name": "appSec", "m_stringValue": "", "m_type": 1, "supportsInput": true, "supportsOutput": true},
             "m_SIGUID": -2000000000000000035,
             "m_classType": "MacroDroidVariableConstraint", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
@@ -261,7 +287,8 @@
         "m_message": "⏳ 10 Dakikalık Aktif Tarama Başladı\nSadece start, submit, no butonlarına tıklanacak.", "m_longDuration": true, "m_SIGUID": -2000000000000000040, "m_classType": "ToastAction", "m_constraintList": [], "m_isDisabled": false, "m_isOrCondition": false
       },
       {
-        "m_fixedOptionCount": 300, "m_option": 0, "childrenCollapsed": false, "dontLogIfConditionIsFalse": false, "disableLogging": false,
+        "m_fixedOptionCount": 300, "m_option": 1,
+        "childrenCollapsed": false, "dontLogIfConditionIsFalse": false, "disableLogging": false,
         "m_SIGUID": -3000000000000000001,
         "m_classType": "LoopAction",
         "m_constraintList": [],

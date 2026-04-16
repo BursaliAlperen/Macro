@@ -39,7 +39,7 @@
         "isSecure": false,
         "m_booleanValue": false,
         "m_decimalValue": 0.0,
-        "m_intValue": 0,
+        "m_intValue": -1,
         "m_name": "appSec",
         "m_stringValue": "",
         "m_type": 1,
@@ -125,15 +125,15 @@
     ],
     "localVarsAlphabetical": true,
     "m_GUID": -2736253631827254729,
-    "m_category": "Night Session",
+    "m_category": "Givvy Macro",
     "m_constraintList": [],
-    "m_description": "Her 10 dakikada bir 4 uygulama arasinda rastgele ge\u00e7is yaparak Night Session baslatir. Night Session basladiginda ekranda dakika bazli geri sayim gosterilir. Uygulamalar: Pets, Pixel, Illusion, Cyberlooters.",
+    "m_description": "Givvy Macro: 4 uygulama arasında 10 dakikada bir geçiş yapar. Ekranda Start, No veya Submit hangisi görünürse otomatik tıklar.",
     "m_descriptionOpen": false,
     "m_enabled": false,
     "m_excludeLog": false,
     "m_headingColor": 0,
     "m_isOrCondition": false,
-    "m_name": "Night Session Rotator",
+    "m_name": "Givvy Macro",
     "m_triggerList": [
       {
         "m_SIGUID": -6062632798742300880,
@@ -312,7 +312,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\ude80 Night Session Bot Ba\u015flat\u0131ld\u0131!\n4 oyun aras\u0131nda ge\u00e7i\u015f yap\u0131lacak.",
+        "m_message": "🚀 Givvy Macro başlatıldı!\n10 dakikada bir farklı oyuna geçiş aktif.",
         "m_longDuration": true,
         "m_SIGUID": -3219319388516015015,
         "m_classType": "ToastAction",
@@ -386,8 +386,112 @@
         "m_doubleRandomMin": 0.0,
         "m_falseLabel": "false",
         "m_intExpression": false,
-        "m_intRandom": true,
-        "m_intRandomMax": 3,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": true,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 1,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "appSec",
+          "m_stringValue": "",
+          "m_type": 1,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -8920159785671486553,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": 3964961309305694164,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 2,
+            "enableRegex": false,
+            "m_booleanValue": false,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": true,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 3,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "appSec",
+              "m_stringValue": "",
+              "m_type": 1,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": 1867702161238042009,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
         "m_intRandomMin": 0,
         "m_intValueDecrement": false,
         "m_intValueIncrement": false,
@@ -420,8 +524,15 @@
           "supportsInput": true,
           "supportsOutput": true
         },
-        "m_SIGUID": -8920159785671486553,
+        "m_SIGUID": -1968876424074723318,
         "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": 439929381170152378,
+        "m_classType": "EndIfAction",
         "m_constraintList": [],
         "m_isDisabled": false,
         "m_isOrCondition": false
@@ -480,7 +591,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd04 Oturum #{lv:oyunSayac} - Uygulama se\u00e7iliyor...",
+        "m_message": "🔄 Oturum #{lv:oyunSayac} - Uygulama seçiliyor...",
         "m_longDuration": false,
         "m_SIGUID": -7487134083690659657,
         "m_classType": "ToastAction",
@@ -540,7 +651,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83c\udfae [1/4] Magnificent Pets Adventure\n\u23f3 Y\u00fckleniyor...",
+        "m_message": "🎮 [1/4] Magnificent Pets Adventure\n⏳ Yükleniyor...",
         "m_longDuration": false,
         "m_SIGUID": -2918546331361705000,
         "m_classType": "ToastAction",
@@ -556,6 +667,321 @@
         "option": 0,
         "m_SIGUID": -6576353897753433090,
         "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": 3948191500672328541,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -5422220729933016850,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -3796943596227487444,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 4172973575256814152,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": 4906891403743516839,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 686794461303475161,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "No",
+        "m_SIGUID": -6266750396429465747,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -5875925460325074655,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -3044119027700859383,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -4094143888160089001,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": 2025468570100632536,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -2612210040351691251,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Submit",
+        "m_SIGUID": -3391347079094631004,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": 7889212053205667244,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": 4609513330351063414,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Submit",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -3770552814742225007,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": 5909276056179371783,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -5772379180998945256,
+        "m_classType": "PauseAction",
         "m_constraintList": [],
         "m_isDisabled": false,
         "m_isOrCondition": false
@@ -1142,7 +1568,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u2705 Magnificent Pets Adventure - Night Session aktif\n\u23f1 10 dakika bekleniyor...",
+        "m_message": "✅ Magnificent Pets Adventure - Night Session aktif\n⏱ 10 dakika bekleniyor...",
         "m_longDuration": true,
         "m_SIGUID": -4983955232502265813,
         "m_classType": "ToastAction",
@@ -1204,7 +1630,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd50 Magnificent Pets\\n\u23f3 10 dakika kald\u0131...",
+        "m_message": "🕐 Magnificent Pets\\n⏳ 10 dakika kaldı...",
         "m_longDuration": false,
         "m_SIGUID": -7571100745368593366,
         "m_classType": "ToastAction",
@@ -1224,7 +1650,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 9 dakika kald\u0131",
+        "m_message": "⏱ Magnificent Pets\\n⏳ 9 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -2667612833549807171,
         "m_classType": "ToastAction",
@@ -1244,7 +1670,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 8 dakika kald\u0131",
+        "m_message": "⏱ Magnificent Pets\\n⏳ 8 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -559254557403076352,
         "m_classType": "ToastAction",
@@ -1264,7 +1690,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 7 dakika kald\u0131",
+        "m_message": "⏱ Magnificent Pets\\n⏳ 7 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -8961515194354024596,
         "m_classType": "ToastAction",
@@ -1284,7 +1710,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 6 dakika kald\u0131",
+        "m_message": "⏱ Magnificent Pets\\n⏳ 6 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -8724763720681659472,
         "m_classType": "ToastAction",
@@ -1304,7 +1730,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u26a0\ufe0f Magnificent Pets\\n\u23f3 5 dakika kald\u0131!",
+        "m_message": "⚠️ Magnificent Pets\\n⏳ 5 dakika kaldı!",
         "m_longDuration": false,
         "m_SIGUID": -5620133312620576141,
         "m_classType": "ToastAction",
@@ -1324,7 +1750,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 4 dakika kald\u0131",
+        "m_message": "⏱ Magnificent Pets\\n⏳ 4 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -6747208987115204398,
         "m_classType": "ToastAction",
@@ -1344,7 +1770,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 3 dakika kald\u0131",
+        "m_message": "⏱ Magnificent Pets\\n⏳ 3 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -5443952922623947717,
         "m_classType": "ToastAction",
@@ -1364,7 +1790,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 2 dakika kald\u0131",
+        "m_message": "⏱ Magnificent Pets\\n⏳ 2 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -5487891756816419431,
         "m_classType": "ToastAction",
@@ -1384,7 +1810,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd14 Magnificent Pets\\n\u23f3 Son 1 dakika!",
+        "m_message": "🔔 Magnificent Pets\\n⏳ Son 1 dakika!",
         "m_longDuration": false,
         "m_SIGUID": -7900839238481046332,
         "m_classType": "ToastAction",
@@ -1404,7 +1830,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd04 Magnificent Pets s\u00fcresi doldu!\\nYeni uygulama se\u00e7iliyor...",
+        "m_message": "🔄 Magnificent Pets süresi doldu!\\nYeni uygulama seçiliyor...",
         "m_longDuration": true,
         "m_SIGUID": -6410683875957578386,
         "m_classType": "ToastAction",
@@ -1464,7 +1890,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83c\udfae [2/4] Pixel Adventure\n\u23f3 Y\u00fckleniyor...",
+        "m_message": "🎮 [2/4] Pixel Adventure\n⏳ Yükleniyor...",
         "m_longDuration": false,
         "m_SIGUID": -3029388324438317923,
         "m_classType": "ToastAction",
@@ -1480,6 +1906,321 @@
         "option": 0,
         "m_SIGUID": -2485077799161640276,
         "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -1672674160415560274,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -2358360411451264784,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": 2776163383511253903,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -8663713218431409409,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": 7202953266294548175,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 4928817294941902264,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "No",
+        "m_SIGUID": -4182785851767541649,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -5161723768813458167,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -2209736451501584944,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 3941991810725658574,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": 8315521931692761841,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 3202337063595876098,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Submit",
+        "m_SIGUID": 6227426405675382349,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -3788617557398660980,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -2731277544600877013,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Submit",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 7417708000288370194,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -4877257689990645184,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 4392443030208688019,
+        "m_classType": "PauseAction",
         "m_constraintList": [],
         "m_isDisabled": false,
         "m_isOrCondition": false
@@ -2066,7 +2807,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u2705 Pixel Adventure - Night Session aktif\n\u23f1 10 dakika bekleniyor...",
+        "m_message": "✅ Pixel Adventure - Night Session aktif\n⏱ 10 dakika bekleniyor...",
         "m_longDuration": true,
         "m_SIGUID": -8322942085193667582,
         "m_classType": "ToastAction",
@@ -2128,7 +2869,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd50 Pixel Adventure\\n\u23f3 10 dakika kald\u0131...",
+        "m_message": "🕐 Pixel Adventure\\n⏳ 10 dakika kaldı...",
         "m_longDuration": false,
         "m_SIGUID": -8516830608704754383,
         "m_classType": "ToastAction",
@@ -2148,7 +2889,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 9 dakika kald\u0131",
+        "m_message": "⏱ Pixel Adventure\\n⏳ 9 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -2037559291204084503,
         "m_classType": "ToastAction",
@@ -2168,7 +2909,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 8 dakika kald\u0131",
+        "m_message": "⏱ Pixel Adventure\\n⏳ 8 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -8773205280838535888,
         "m_classType": "ToastAction",
@@ -2188,7 +2929,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 7 dakika kald\u0131",
+        "m_message": "⏱ Pixel Adventure\\n⏳ 7 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -9173940133416193612,
         "m_classType": "ToastAction",
@@ -2208,7 +2949,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 6 dakika kald\u0131",
+        "m_message": "⏱ Pixel Adventure\\n⏳ 6 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -3554038478292739128,
         "m_classType": "ToastAction",
@@ -2228,7 +2969,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u26a0\ufe0f Pixel Adventure\\n\u23f3 5 dakika kald\u0131!",
+        "m_message": "⚠️ Pixel Adventure\\n⏳ 5 dakika kaldı!",
         "m_longDuration": false,
         "m_SIGUID": -1548037518634900815,
         "m_classType": "ToastAction",
@@ -2248,7 +2989,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 4 dakika kald\u0131",
+        "m_message": "⏱ Pixel Adventure\\n⏳ 4 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -5144053342643580637,
         "m_classType": "ToastAction",
@@ -2268,7 +3009,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 3 dakika kald\u0131",
+        "m_message": "⏱ Pixel Adventure\\n⏳ 3 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -8732617186671849795,
         "m_classType": "ToastAction",
@@ -2288,7 +3029,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 2 dakika kald\u0131",
+        "m_message": "⏱ Pixel Adventure\\n⏳ 2 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -7169286510102208823,
         "m_classType": "ToastAction",
@@ -2308,7 +3049,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd14 Pixel Adventure\\n\u23f3 Son 1 dakika!",
+        "m_message": "🔔 Pixel Adventure\\n⏳ Son 1 dakika!",
         "m_longDuration": false,
         "m_SIGUID": -8619408982364359983,
         "m_classType": "ToastAction",
@@ -2328,7 +3069,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd04 Pixel Adventure s\u00fcresi doldu!\\nYeni uygulama se\u00e7iliyor...",
+        "m_message": "🔄 Pixel Adventure süresi doldu!\\nYeni uygulama seçiliyor...",
         "m_longDuration": true,
         "m_SIGUID": -27094780097731982,
         "m_classType": "ToastAction",
@@ -2388,7 +3129,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83c\udfae [3/4] Illusion Show Magic\n\u23f3 Y\u00fckleniyor...",
+        "m_message": "🎮 [3/4] Illusion Show Magic\n⏳ Yükleniyor...",
         "m_longDuration": false,
         "m_SIGUID": -5724330076596450169,
         "m_classType": "ToastAction",
@@ -2404,6 +3145,321 @@
         "option": 0,
         "m_SIGUID": -7681228004411915750,
         "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -2601267901124668702,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": 8713841162128234110,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": 6157885464975872694,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -736383430371736093,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -4079048746647394806,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -3244192333922637957,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "No",
+        "m_SIGUID": -142903227949430734,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": 4174726141031935594,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": 5429876840169223765,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 7233509554274822698,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": 604373599722468423,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 6238310618204506974,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Submit",
+        "m_SIGUID": 4226235110466608653,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": 146356994315863469,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": 3852763827303686925,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Submit",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 2394600320216221703,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -4423475371072813177,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 2829156873859941865,
+        "m_classType": "PauseAction",
         "m_constraintList": [],
         "m_isDisabled": false,
         "m_isOrCondition": false
@@ -2990,7 +4046,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u2705 Illusion Show Magic - Night Session aktif\n\u23f1 10 dakika bekleniyor...",
+        "m_message": "✅ Illusion Show Magic - Night Session aktif\n⏱ 10 dakika bekleniyor...",
         "m_longDuration": true,
         "m_SIGUID": -2374006742357325605,
         "m_classType": "ToastAction",
@@ -3052,7 +4108,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd50 Illusion Show Magic\\n\u23f3 10 dakika kald\u0131...",
+        "m_message": "🕐 Illusion Show Magic\\n⏳ 10 dakika kaldı...",
         "m_longDuration": false,
         "m_SIGUID": -2256477385812144774,
         "m_classType": "ToastAction",
@@ -3072,7 +4128,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 9 dakika kald\u0131",
+        "m_message": "⏱ Illusion Show Magic\\n⏳ 9 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -2969905733998124144,
         "m_classType": "ToastAction",
@@ -3092,7 +4148,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 8 dakika kald\u0131",
+        "m_message": "⏱ Illusion Show Magic\\n⏳ 8 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -445734850044366214,
         "m_classType": "ToastAction",
@@ -3112,7 +4168,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 7 dakika kald\u0131",
+        "m_message": "⏱ Illusion Show Magic\\n⏳ 7 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -7274852085241304787,
         "m_classType": "ToastAction",
@@ -3132,7 +4188,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 6 dakika kald\u0131",
+        "m_message": "⏱ Illusion Show Magic\\n⏳ 6 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -8885083912670234550,
         "m_classType": "ToastAction",
@@ -3152,7 +4208,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u26a0\ufe0f Illusion Show Magic\\n\u23f3 5 dakika kald\u0131!",
+        "m_message": "⚠️ Illusion Show Magic\\n⏳ 5 dakika kaldı!",
         "m_longDuration": false,
         "m_SIGUID": -1997478636351909530,
         "m_classType": "ToastAction",
@@ -3172,7 +4228,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 4 dakika kald\u0131",
+        "m_message": "⏱ Illusion Show Magic\\n⏳ 4 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -1682356252074115566,
         "m_classType": "ToastAction",
@@ -3192,7 +4248,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 3 dakika kald\u0131",
+        "m_message": "⏱ Illusion Show Magic\\n⏳ 3 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -141640290471067656,
         "m_classType": "ToastAction",
@@ -3212,7 +4268,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 2 dakika kald\u0131",
+        "m_message": "⏱ Illusion Show Magic\\n⏳ 2 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -6445842671954987264,
         "m_classType": "ToastAction",
@@ -3232,7 +4288,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd14 Illusion Show Magic\\n\u23f3 Son 1 dakika!",
+        "m_message": "🔔 Illusion Show Magic\\n⏳ Son 1 dakika!",
         "m_longDuration": false,
         "m_SIGUID": -5578807338318785988,
         "m_classType": "ToastAction",
@@ -3252,7 +4308,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd04 Illusion Show Magic s\u00fcresi doldu!\\nYeni uygulama se\u00e7iliyor...",
+        "m_message": "🔄 Illusion Show Magic süresi doldu!\\nYeni uygulama seçiliyor...",
         "m_longDuration": true,
         "m_SIGUID": -6586671051252043250,
         "m_classType": "ToastAction",
@@ -3269,7 +4325,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83c\udfae [4/4] Cyberlooters Game\n\u23f3 Y\u00fckleniyor...",
+        "m_message": "🎮 [4/4] Cyberlooters Game\n⏳ Yükleniyor...",
         "m_longDuration": false,
         "m_SIGUID": -7285304811949254654,
         "m_classType": "ToastAction",
@@ -3285,6 +4341,321 @@
         "option": 0,
         "m_SIGUID": -2144495732585831724,
         "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -4876839585842329051,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": 1256447537912024500,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": 57662193918902244,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 320622448427243517,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -6928635373871917102,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 8188806445720376587,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "No",
+        "m_SIGUID": -392439179830813314,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": 2024161362914700124,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": 231567296908877980,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 4765612599868409775,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -6401987497532487927,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -8205638832459558382,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Submit",
+        "m_SIGUID": 8860006156668030083,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": 7750825821495551064,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -1205004726900707921,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Submit",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 2980799642147466312,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": 3825620119121845911,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 5401596664504863344,
+        "m_classType": "PauseAction",
         "m_constraintList": [],
         "m_isDisabled": false,
         "m_isOrCondition": false
@@ -3871,7 +5242,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u2705 Cyberlooters Game - Night Session aktif\n\u23f1 10 dakika bekleniyor...",
+        "m_message": "✅ Cyberlooters Game - Night Session aktif\n⏱ 10 dakika bekleniyor...",
         "m_longDuration": true,
         "m_SIGUID": -4916801983521043360,
         "m_classType": "ToastAction",
@@ -3933,7 +5304,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd50 Cyberlooters Game\\n\u23f3 10 dakika kald\u0131...",
+        "m_message": "🕐 Cyberlooters Game\\n⏳ 10 dakika kaldı...",
         "m_longDuration": false,
         "m_SIGUID": -6408492712007395190,
         "m_classType": "ToastAction",
@@ -3953,7 +5324,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 9 dakika kald\u0131",
+        "m_message": "⏱ Cyberlooters Game\\n⏳ 9 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -6196551788449703139,
         "m_classType": "ToastAction",
@@ -3973,7 +5344,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 8 dakika kald\u0131",
+        "m_message": "⏱ Cyberlooters Game\\n⏳ 8 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -2434433860566126627,
         "m_classType": "ToastAction",
@@ -3993,7 +5364,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 7 dakika kald\u0131",
+        "m_message": "⏱ Cyberlooters Game\\n⏳ 7 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -5231162804359021410,
         "m_classType": "ToastAction",
@@ -4013,7 +5384,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 6 dakika kald\u0131",
+        "m_message": "⏱ Cyberlooters Game\\n⏳ 6 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -7775653204789901719,
         "m_classType": "ToastAction",
@@ -4033,7 +5404,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u26a0\ufe0f Cyberlooters Game\\n\u23f3 5 dakika kald\u0131!",
+        "m_message": "⚠️ Cyberlooters Game\\n⏳ 5 dakika kaldı!",
         "m_longDuration": false,
         "m_SIGUID": -3604245501655602995,
         "m_classType": "ToastAction",
@@ -4053,7 +5424,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 4 dakika kald\u0131",
+        "m_message": "⏱ Cyberlooters Game\\n⏳ 4 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -3233179652932783131,
         "m_classType": "ToastAction",
@@ -4073,7 +5444,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 3 dakika kald\u0131",
+        "m_message": "⏱ Cyberlooters Game\\n⏳ 3 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -7962611046532694618,
         "m_classType": "ToastAction",
@@ -4093,7 +5464,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 2 dakika kald\u0131",
+        "m_message": "⏱ Cyberlooters Game\\n⏳ 2 dakika kaldı",
         "m_longDuration": false,
         "m_SIGUID": -472414761113535076,
         "m_classType": "ToastAction",
@@ -4113,7 +5484,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd14 Cyberlooters Game\\n\u23f3 Son 1 dakika!",
+        "m_message": "🔔 Cyberlooters Game\\n⏳ Son 1 dakika!",
         "m_longDuration": false,
         "m_SIGUID": -1113103371056004835,
         "m_classType": "ToastAction",
@@ -4133,7 +5504,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "\ud83d\udd04 Cyberlooters Game s\u00fcresi doldu!\\nYeni uygulama se\u00e7iliyor...",
+        "m_message": "🔄 Cyberlooters Game süresi doldu!\\nYeni uygulama seçiliyor...",
         "m_longDuration": true,
         "m_SIGUID": -1466874465118415802,
         "m_classType": "ToastAction",

@@ -1,0 +1,4172 @@
+{
+  "macro": {
+    "disabledTimestamp": 0,
+    "exportedActionBlocks": [],
+    "forceEvenIfNotEnabledTimestamp": 0,
+    "isActionBlock": false,
+    "isExtra": false,
+    "isFavourite": true,
+    "lastEditedTimestamp": 1772374626206,
+    "localVariables": [
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": true,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "W",
+        "m_stringValue": "",
+        "m_type": 0,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "appSec",
+        "m_stringValue": "",
+        "m_type": 1,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "oyunSayac",
+        "m_stringValue": "",
+        "m_type": 1,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "nightV",
+        "m_stringValue": "",
+        "m_type": 0,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 1,
+        "m_name": "W_loop",
+        "m_stringValue": "",
+        "m_type": 1,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "dakikaSayac",
+        "m_stringValue": "",
+        "m_type": 1,
+        "supportsInput": true,
+        "supportsOutput": true
+      }
+    ],
+    "localVarsAlphabetical": true,
+    "m_GUID": -2736253631827254729,
+    "m_category": "Night Session",
+    "m_constraintList": [],
+    "m_description": "Her 10 dakikada bir 4 uygulama arasinda rastgele ge\u00e7is yaparak Night Session baslatir. Night Session basladiginda ekranda dakika bazli geri sayim gosterilir. Uygulamalar: Pets, Pixel, Illusion, Cyberlooters.",
+    "m_descriptionOpen": false,
+    "m_enabled": false,
+    "m_excludeLog": false,
+    "m_headingColor": 0,
+    "m_isOrCondition": false,
+    "m_name": "Night Session Rotator",
+    "m_triggerList": [
+      {
+        "m_SIGUID": -6062632798742300880,
+        "m_classType": "MacroEnabledTrigger",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ],
+    "m_actionList": [
+      {
+        "enable": true,
+        "m_SIGUID": -4343210603321196550,
+        "m_classType": "KeepScreenOnAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 1,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 1,
+          "m_name": "W_loop",
+          "m_stringValue": "",
+          "m_type": 1,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -4434493417489231966,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": true,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": true,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "W",
+          "m_stringValue": "",
+          "m_type": 0,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -8470620393301024479,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "oyunSayac",
+          "m_stringValue": "",
+          "m_type": 1,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -8481530343254327485,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\ude80 Night Session Bot Ba\u015flat\u0131ld\u0131!\n4 oyun aras\u0131nda ge\u00e7i\u015f yap\u0131lacak.",
+        "m_longDuration": true,
+        "m_SIGUID": -3219319388516015015,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_fixedOptionCount": 0,
+        "m_option": 1,
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -3778390571708918381,
+        "m_classType": "LoopAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 0,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "W",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -6073543325476568101,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": true,
+        "m_intRandomMax": 3,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 0,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "appSec",
+          "m_stringValue": "",
+          "m_type": 1,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -8920159785671486553,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": true,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 1,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 1,
+          "m_name": "oyunSayac",
+          "m_stringValue": "",
+          "m_type": 1,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -2899642406966735650,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd04 Oturum #{lv:oyunSayac} - Uygulama se\u00e7iliyor...",
+        "m_longDuration": false,
+        "m_SIGUID": -7487134083690659657,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -5317599000243450199,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 2,
+            "enableRegex": false,
+            "m_booleanValue": false,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "appSec",
+              "m_stringValue": "",
+              "m_type": 1,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -4375951792218488671,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83c\udfae [1/4] Magnificent Pets Adventure\n\u23f3 Y\u00fckleniyor...",
+        "m_longDuration": false,
+        "m_SIGUID": -2918546331361705000,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_applicationName": "Magnificent Pets Adventure",
+        "m_excludeFromRecents": true,
+        "m_packageToLaunch": "com.app.magnificent.pets.adventure",
+        "m_startNew": false,
+        "option": 0,
+        "m_SIGUID": -6576353897753433090,
+        "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 5,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -4205363381690679162,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -5573575090425432351,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -5016810994192564452,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -3740951271784247643,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -928531956544410742,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -2806611861390998137,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -5139160150295705671,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 3201717827133830075,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 852930797442061272,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 741474037322857637,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 7040244412406215207,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 8602457683447766528,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 7033256567199001623,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -5160577038913094159,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No_Button",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 80
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -7902666160936203936,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dontLogIfConditionIsFalse": false,
+        "m_SIGUID": -2303011099776652810,
+        "m_classType": "ElseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "contentDescription": "",
+          "longClick": false,
+          "textMatchOption": 0,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 20,
+            "y": 15
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -1563002327534783987,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 2,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -5444419188229773289,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -4420955640294060460,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -3872573543892741985,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -2970686352267683744,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 1393403998940346967,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 3786669784876429386,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 987985652141678565,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -5046891493338362022,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -225210452201509933,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -1646889230517575744,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 7918027733521488001,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -8319662836508864712,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -7488185467549259804,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -3126728313780309676,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No_Button",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 80
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 4641663550704160123,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -3986193523052037132,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -7320930731733098810,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 3,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -2503315634467276549,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u2705 Magnificent Pets Adventure - Night Session aktif\n\u23f1 10 dakika bekleniyor...",
+        "m_longDuration": true,
+        "m_SIGUID": -4983955232502265813,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 10,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "dakikaSayac",
+          "m_stringValue": "",
+          "m_type": 1,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -972403327097981058,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd50 Magnificent Pets\\n\u23f3 10 dakika kald\u0131...",
+        "m_longDuration": false,
+        "m_SIGUID": -7571100745368593366,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -4179698202132933253,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 9 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -2667612833549807171,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -4764894381851913302,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 8 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -559254557403076352,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -4962702011173872582,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 7 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -8961515194354024596,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -6910690684965950076,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 6 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -8724763720681659472,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -8354672144036096633,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u26a0\ufe0f Magnificent Pets\\n\u23f3 5 dakika kald\u0131!",
+        "m_longDuration": false,
+        "m_SIGUID": -5620133312620576141,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -432598446990017752,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 4 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -6747208987115204398,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -9197733765297592614,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 3 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -5443952922623947717,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -1746962945547288534,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Magnificent Pets\\n\u23f3 2 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -5487891756816419431,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -8787761964735648873,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd14 Magnificent Pets\\n\u23f3 Son 1 dakika!",
+        "m_longDuration": false,
+        "m_SIGUID": -7900839238481046332,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -3357333649505566686,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd04 Magnificent Pets s\u00fcresi doldu!\\nYeni uygulama se\u00e7iliyor...",
+        "m_longDuration": true,
+        "m_SIGUID": -6410683875957578386,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -8343395054970403855,
+        "m_classType": "ElseIfAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 2,
+            "enableRegex": false,
+            "m_booleanValue": false,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 1,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "appSec",
+              "m_stringValue": "",
+              "m_type": 1,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -4003450350614120240,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83c\udfae [2/4] Pixel Adventure\n\u23f3 Y\u00fckleniyor...",
+        "m_longDuration": false,
+        "m_SIGUID": -3029388324438317923,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_applicationName": "Pixel Adventure",
+        "m_excludeFromRecents": true,
+        "m_packageToLaunch": "com.app.pixel.adventure",
+        "m_startNew": false,
+        "option": 0,
+        "m_SIGUID": -2485077799161640276,
+        "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 5,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -7986735846223897213,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -8914836139950186721,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -939674840357825679,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -91692642855978295,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 9084017183365897229,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -7885286578609985937,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -8475035200151819657,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 6883791317445196580,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -7377100787169462989,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -3120357406081562561,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -4068103584956274355,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 7692010464289490325,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 7739357418051415781,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -1037559781562283196,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No_Button",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 80
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 7181540852323374574,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dontLogIfConditionIsFalse": false,
+        "m_SIGUID": -218836456231294204,
+        "m_classType": "ElseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "contentDescription": "",
+          "longClick": false,
+          "textMatchOption": 0,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 40,
+            "y": 15
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -4877908162768901868,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 2,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -353514794780552065,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -229154953469136264,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -4018421342686532637,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -2298888621645492895,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 139305280408071838,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -5494560508915183258,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -2544717015431972512,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -4390627376744100588,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 2112392099712488923,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 3653391267636201284,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 731993462160196335,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 6313749146789880852,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -6616788927616385553,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -3853565702697066233,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No_Button",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 80
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 1301688617824884548,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -7725914659960856848,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -8009578482464609650,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 3,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -2088406006294102723,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u2705 Pixel Adventure - Night Session aktif\n\u23f1 10 dakika bekleniyor...",
+        "m_longDuration": true,
+        "m_SIGUID": -8322942085193667582,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 10,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "dakikaSayac",
+          "m_stringValue": "",
+          "m_type": 1,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -4525352701061331752,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd50 Pixel Adventure\\n\u23f3 10 dakika kald\u0131...",
+        "m_longDuration": false,
+        "m_SIGUID": -8516830608704754383,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -742320899147886830,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 9 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -2037559291204084503,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -5376995034675053233,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 8 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -8773205280838535888,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -8457749826475385720,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 7 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -9173940133416193612,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -9105112046721490651,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 6 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -3554038478292739128,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -2720295431622390658,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u26a0\ufe0f Pixel Adventure\\n\u23f3 5 dakika kald\u0131!",
+        "m_longDuration": false,
+        "m_SIGUID": -1548037518634900815,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -5104549715771320553,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 4 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -5144053342643580637,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -7685562203795070306,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 3 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -8732617186671849795,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -6112002280186852882,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Pixel Adventure\\n\u23f3 2 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -7169286510102208823,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -7188289755698563158,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd14 Pixel Adventure\\n\u23f3 Son 1 dakika!",
+        "m_longDuration": false,
+        "m_SIGUID": -8619408982364359983,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -1525371105944936114,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd04 Pixel Adventure s\u00fcresi doldu!\\nYeni uygulama se\u00e7iliyor...",
+        "m_longDuration": true,
+        "m_SIGUID": -27094780097731982,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -8031706556044074401,
+        "m_classType": "ElseIfAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 2,
+            "enableRegex": false,
+            "m_booleanValue": false,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 2,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": false,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "appSec",
+              "m_stringValue": "",
+              "m_type": 1,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -5371193554147126352,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83c\udfae [3/4] Illusion Show Magic\n\u23f3 Y\u00fckleniyor...",
+        "m_longDuration": false,
+        "m_SIGUID": -5724330076596450169,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_applicationName": "Illusion Show Magic",
+        "m_excludeFromRecents": true,
+        "m_packageToLaunch": "com.app.illusion.show.magic",
+        "m_startNew": false,
+        "option": 0,
+        "m_SIGUID": -7681228004411915750,
+        "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 5,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -2558942575840889285,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -6845379371394016798,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -6109009824171336715,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -4280850138748703051,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 5062570658524550235,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 2328023651228617633,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 8099079125089150887,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 6101841144112997987,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 2862467015022587989,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 4671705283916899220,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -1496323951141529296,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 781945916731326075,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -7000372239013567279,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -7242128582646243928,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No_Button",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 80
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 8948507216241455832,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dontLogIfConditionIsFalse": false,
+        "m_SIGUID": -7593372345539787054,
+        "m_classType": "ElseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "contentDescription": "",
+          "longClick": false,
+          "textMatchOption": 0,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 60,
+            "y": 15
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -518820324355719606,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 2,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -2224868194568250865,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -470871385452333946,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -1358999871585805698,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -4210609785963012234,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -1510570651213114460,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -8035909234745879750,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 5149076361239445919,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -9169322742761245008,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 7378188554559420783,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 1560319823915341115,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 3690104031502947017,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -8990689054396485238,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -208227140368762125,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 1125595630264225693,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No_Button",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 80
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 1111079813142586007,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -2555456635809640678,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -4244282920629660523,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 3,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -1781115702726939980,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u2705 Illusion Show Magic - Night Session aktif\n\u23f1 10 dakika bekleniyor...",
+        "m_longDuration": true,
+        "m_SIGUID": -2374006742357325605,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 10,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "dakikaSayac",
+          "m_stringValue": "",
+          "m_type": 1,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -4350016956900518520,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd50 Illusion Show Magic\\n\u23f3 10 dakika kald\u0131...",
+        "m_longDuration": false,
+        "m_SIGUID": -2256477385812144774,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -118214648248291734,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 9 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -2969905733998124144,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -8241302783857117491,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 8 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -445734850044366214,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -7067546441439148748,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 7 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -7274852085241304787,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -7290279509531513178,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 6 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -8885083912670234550,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -159465604973287050,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u26a0\ufe0f Illusion Show Magic\\n\u23f3 5 dakika kald\u0131!",
+        "m_longDuration": false,
+        "m_SIGUID": -1997478636351909530,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -3556208357942071294,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 4 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -1682356252074115566,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -8675298504777268157,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 3 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -141640290471067656,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -3764768492740274588,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Illusion Show Magic\\n\u23f3 2 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -6445842671954987264,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -6016097034909410914,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd14 Illusion Show Magic\\n\u23f3 Son 1 dakika!",
+        "m_longDuration": false,
+        "m_SIGUID": -5578807338318785988,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -7496825346516565628,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd04 Illusion Show Magic s\u00fcresi doldu!\\nYeni uygulama se\u00e7iliyor...",
+        "m_longDuration": true,
+        "m_SIGUID": -6586671051252043250,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dontLogIfConditionIsFalse": false,
+        "m_SIGUID": -6464274849059450022,
+        "m_classType": "ElseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83c\udfae [4/4] Cyberlooters Game\n\u23f3 Y\u00fckleniyor...",
+        "m_longDuration": false,
+        "m_SIGUID": -7285304811949254654,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_applicationName": "Cyberlooters Game",
+        "m_excludeFromRecents": true,
+        "m_packageToLaunch": "com.app.cyberlooters.game",
+        "m_startNew": false,
+        "option": 0,
+        "m_SIGUID": -2144495732585831724,
+        "m_classType": "LaunchActivityAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 5,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -930248298495218744,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -3598822184602089673,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -6534393795088327535,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -5457161247564274923,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 4649369563541486116,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -6785910680676339102,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -6240619151767180679,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -4428254903490972722,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 6756727263943071514,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -631109917706767382,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 1489355362658053084,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 5103299581783506907,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -3323231272042558547,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -6150239176608713111,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No_Button",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 80
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 2278465308156103628,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "dontLogIfConditionIsFalse": false,
+        "m_SIGUID": -8693006216086990259,
+        "m_classType": "ElseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "contentDescription": "",
+          "longClick": false,
+          "textMatchOption": 0,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 80,
+            "y": 15
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -3978098245600608532,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 2,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -5308347070146909780,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "nightV",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Start",
+        "m_SIGUID": -3692411150472918473,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -2302606884765532392,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 1,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "nightV",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -6232003961630094438,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -8068310786611728967,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -7713671706052755771,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -1867534645359655220,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 536978877830442416,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 8886599129606459072,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 7512495486447981179,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -5412613297619494391,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": 2801241121642298620,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "Start_Auto",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 65
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": 5304670644796494930,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 200,
+        "m_delayInSeconds": 0,
+        "m_useAlarm": false,
+        "unitForVariables": 0,
+        "m_SIGUID": -8924252071974580002,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 2,
+          "longClick": false,
+          "textContent": "No_Button",
+          "textMatchOption": 1,
+          "xyPercentages": true,
+          "xyPoint": {
+            "x": 50,
+            "y": 80
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -5035538068302776268,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -1072447653187617132,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -6122132241025117123,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 3,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -3278645930150556377,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u2705 Cyberlooters Game - Night Session aktif\n\u23f1 10 dakika bekleniyor...",
+        "m_longDuration": true,
+        "m_SIGUID": -4916801983521043360,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanDictionaryKeys": {
+          "keys": []
+        },
+        "dictionaryKeys": [],
+        "dictionaryOrArrayType": -1,
+        "existingManualKeyType": 0,
+        "m_booleanInvert": false,
+        "m_darkMode": -1,
+        "m_doubleRandomMax": 0.0,
+        "m_doubleRandomMin": 0.0,
+        "m_falseLabel": "false",
+        "m_intExpression": false,
+        "m_intRandom": false,
+        "m_intRandomMax": 0,
+        "m_intRandomMin": 0,
+        "m_intValueDecrement": false,
+        "m_intValueIncrement": false,
+        "m_newBooleanValue": false,
+        "m_newDoubleValue": 0.0,
+        "m_newIntValue": 10,
+        "m_newStringValue": "",
+        "m_trueLabel": "true",
+        "m_userPrompt": false,
+        "m_userPromptEmptyAtStart": false,
+        "m_userPromptPassword": false,
+        "m_userPromptShowCancel": true,
+        "m_userPromptStopAfterCancel": true,
+        "m_variable": {
+          "dictionary": {
+            "entries": [],
+            "isArray": false,
+            "variableType": 4,
+            "type": "Dictionary"
+          },
+          "isActionBlockWorkingVar": false,
+          "isLocalVar": true,
+          "isSecure": false,
+          "m_booleanValue": false,
+          "m_decimalValue": 0.0,
+          "m_intValue": 0,
+          "m_name": "dakikaSayac",
+          "m_stringValue": "",
+          "m_type": 1,
+          "supportsInput": true,
+          "supportsOutput": true
+        },
+        "m_SIGUID": -3326337500058195797,
+        "m_classType": "SetVariableAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd50 Cyberlooters Game\\n\u23f3 10 dakika kald\u0131...",
+        "m_longDuration": false,
+        "m_SIGUID": -6408492712007395190,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -3396825002659446737,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 9 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -6196551788449703139,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -5018928862638091621,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 8 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -2434433860566126627,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -4365275490788259182,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 7 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -5231162804359021410,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -1113614137404666200,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 6 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -7775653204789901719,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -7989838079407210883,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u26a0\ufe0f Cyberlooters Game\\n\u23f3 5 dakika kald\u0131!",
+        "m_longDuration": false,
+        "m_SIGUID": -3604245501655602995,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -3024923979748679776,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 4 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -3233179652932783131,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -717236947032327985,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 3 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -7962611046532694618,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -8296279530078657130,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\u23f1 Cyberlooters Game\\n\u23f3 2 dakika kald\u0131",
+        "m_longDuration": false,
+        "m_SIGUID": -472414761113535076,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -8222782582666835360,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd14 Cyberlooters Game\\n\u23f3 Son 1 dakika!",
+        "m_longDuration": false,
+        "m_SIGUID": -1113103371056004835,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 60,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -7961619486688686174,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_message": "\ud83d\udd04 Cyberlooters Game s\u00fcresi doldu!\\nYeni uygulama se\u00e7iliyor...",
+        "m_longDuration": true,
+        "m_SIGUID": -1466874465118415802,
+        "m_classType": "ToastAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -4797974958841004752,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 2,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -3472547908726544869,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -1030832515853129671,
+        "m_classType": "EndLoopAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      }
+    ]
+  },
+  "macroExportVersion": 1
+}

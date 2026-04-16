@@ -102,19 +102,133 @@
         "m_type": 0,
         "supportsInput": true,
         "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "hasYes",
+        "m_stringValue": "",
+        "m_type": 0,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "hasNo",
+        "m_stringValue": "",
+        "m_type": 0,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "hasAllow",
+        "m_stringValue": "",
+        "m_type": 0,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "hasDeny",
+        "m_stringValue": "",
+        "m_type": 0,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "hasWatchAd",
+        "m_stringValue": "",
+        "m_type": 0,
+        "supportsInput": true,
+        "supportsOutput": true
+      },
+      {
+        "dictionary": {
+          "entries": [],
+          "isArray": false,
+          "variableType": 4,
+          "type": "Dictionary"
+        },
+        "isActionBlockWorkingVar": false,
+        "isLocalVar": true,
+        "isSecure": false,
+        "m_booleanValue": false,
+        "m_decimalValue": 0.0,
+        "m_intValue": 0,
+        "m_name": "hasSkip",
+        "m_stringValue": "",
+        "m_type": 0,
+        "supportsInput": true,
+        "supportsOutput": true
       }
     ],
     "localVarsAlphabetical": true,
     "m_GUID": -2736253631827254729,
     "m_category": "Night Session",
     "m_constraintList": [],
-    "m_description": "Her 10 dakikada bir 4 uygulama arasında rastgele geçiş yaparak Night Session baslatır. ✅ FULLY FIXED",
+    "m_description": "Her 10 dakikada bir 4 uygulama arasında rastgele geçiş yaparak Night Session baslatır. COMPLETE VERSION.",
     "m_descriptionOpen": false,
     "m_enabled": false,
     "m_excludeLog": false,
     "m_headingColor": 0,
     "m_isOrCondition": false,
-    "m_name": "Night Session Rotator - FIXED v3",
+    "m_name": "Night Session Rotator - COMPLETE",
     "m_triggerList": [
       {
         "m_SIGUID": -6062632798742300880,
@@ -468,7 +582,7 @@
         "m_isOrCondition": false
       },
       {
-        "m_message": "🎮 [1/4] Magnificent Pets Adventure",
+        "m_message": "🎮 [1/4] Magnificent Pets",
         "m_longDuration": false,
         "m_SIGUID": -2918546331361705000,
         "m_classType": "ToastAction",
@@ -495,6 +609,489 @@
         "unitForVariables": 0,
         "m_SIGUID": -4205363381690679162,
         "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "hasYes",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Yes",
+        "m_SIGUID": -5573575090425432351,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "hasNo",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "No",
+        "m_SIGUID": -1572575090425432351,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -5016810994192564452,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 0,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "hasYes",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -3740951271784247643,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [
+              {
+                "checkCase": false,
+                "dictionaryKeys": {
+                  "keys": []
+                },
+                "dictionaryType": 0,
+                "enableRegex": false,
+                "m_booleanValue": true,
+                "m_doubleValue": 0.0,
+                "m_intCompareVariable": false,
+                "m_intGreaterThan": false,
+                "m_intLessThan": false,
+                "m_intNotEqual": false,
+                "m_intValue": 0,
+                "m_stringComparisonType": 0,
+                "m_stringEqual": true,
+                "m_variable": {
+                  "dictionary": {
+                    "entries": [],
+                    "isArray": false,
+                    "variableType": 4,
+                    "type": "Dictionary"
+                  },
+                  "isActionBlockWorkingVar": false,
+                  "isLocalVar": true,
+                  "isSecure": false,
+                  "m_booleanValue": true,
+                  "m_decimalValue": 0.0,
+                  "m_intValue": 0,
+                  "m_name": "hasNo",
+                  "m_stringValue": "",
+                  "m_type": 0,
+                  "supportsInput": true,
+                  "supportsOutput": true
+                },
+                "m_SIGUID": -3740951271784247644,
+                "m_classType": "MacroDroidVariableConstraint",
+                "m_constraintList": [],
+                "m_isDisabled": false,
+                "m_isOrCondition": false
+              }
+            ],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 1,
+          "longClick": false,
+          "textContent": "No",
+          "textMatchOption": 1,
+          "xyPercentages": false,
+          "xyPoint": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -8645869284409959768,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 1,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -4205363381690679163,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -2303011099776652810,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "hasAllow",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Allow",
+        "m_SIGUID": -1573575090425432351,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "hasDeny",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Deny",
+        "m_SIGUID": -1574575090425432351,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -5016810994192564453,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 0,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "hasAllow",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -3740951271784247645,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [
+              {
+                "checkCase": false,
+                "dictionaryKeys": {
+                  "keys": []
+                },
+                "dictionaryType": 0,
+                "enableRegex": false,
+                "m_booleanValue": true,
+                "m_doubleValue": 0.0,
+                "m_intCompareVariable": false,
+                "m_intGreaterThan": false,
+                "m_intLessThan": false,
+                "m_intNotEqual": false,
+                "m_intValue": 0,
+                "m_stringComparisonType": 0,
+                "m_stringEqual": true,
+                "m_variable": {
+                  "dictionary": {
+                    "entries": [],
+                    "isArray": false,
+                    "variableType": 4,
+                    "type": "Dictionary"
+                  },
+                  "isActionBlockWorkingVar": false,
+                  "isLocalVar": true,
+                  "isSecure": false,
+                  "m_booleanValue": true,
+                  "m_decimalValue": 0.0,
+                  "m_intValue": 0,
+                  "m_name": "hasDeny",
+                  "m_stringValue": "",
+                  "m_type": 0,
+                  "supportsInput": true,
+                  "supportsOutput": true
+                },
+                "m_SIGUID": -3740951271784247646,
+                "m_classType": "MacroDroidVariableConstraint",
+                "m_constraintList": [],
+                "m_isDisabled": false,
+                "m_isOrCondition": false
+              }
+            ],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 1,
+          "longClick": false,
+          "textContent": "Deny",
+          "textMatchOption": 1,
+          "xyPercentages": false,
+          "xyPoint": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -8645869284409959769,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 1,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -4205363381690679164,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -2303011099776652811,
+        "m_classType": "EndIfAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "hasWatchAd",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Watch ad",
+        "m_SIGUID": -1575575090425432351,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "booleanVariableName": "hasSkip",
+        "enableRegex": false,
+        "ignoreCase": true,
+        "ignoreHiddenText": false,
+        "includeOverlays": false,
+        "matchOption": 1,
+        "textToCheck": "Skip",
+        "m_SIGUID": -1576575090425432351,
+        "m_classType": "CheckTextOnScreenAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "childrenCollapsed": false,
+        "dontLogIfConditionIsFalse": true,
+        "m_SIGUID": -5016810994192564454,
+        "m_classType": "IfConditionAction",
+        "m_constraintList": [
+          {
+            "checkCase": false,
+            "dictionaryKeys": {
+              "keys": []
+            },
+            "dictionaryType": 0,
+            "enableRegex": false,
+            "m_booleanValue": true,
+            "m_doubleValue": 0.0,
+            "m_intCompareVariable": false,
+            "m_intGreaterThan": false,
+            "m_intLessThan": false,
+            "m_intNotEqual": false,
+            "m_intValue": 0,
+            "m_stringComparisonType": 0,
+            "m_stringEqual": true,
+            "m_variable": {
+              "dictionary": {
+                "entries": [],
+                "isArray": false,
+                "variableType": 4,
+                "type": "Dictionary"
+              },
+              "isActionBlockWorkingVar": false,
+              "isLocalVar": true,
+              "isSecure": false,
+              "m_booleanValue": true,
+              "m_decimalValue": 0.0,
+              "m_intValue": 0,
+              "m_name": "hasWatchAd",
+              "m_stringValue": "",
+              "m_type": 0,
+              "supportsInput": true,
+              "supportsOutput": true
+            },
+            "m_SIGUID": -3740951271784247647,
+            "m_classType": "MacroDroidVariableConstraint",
+            "m_constraintList": [
+              {
+                "checkCase": false,
+                "dictionaryKeys": {
+                  "keys": []
+                },
+                "dictionaryType": 0,
+                "enableRegex": false,
+                "m_booleanValue": true,
+                "m_doubleValue": 0.0,
+                "m_intCompareVariable": false,
+                "m_intGreaterThan": false,
+                "m_intLessThan": false,
+                "m_intNotEqual": false,
+                "m_intValue": 0,
+                "m_stringComparisonType": 0,
+                "m_stringEqual": true,
+                "m_variable": {
+                  "dictionary": {
+                    "entries": [],
+                    "isArray": false,
+                    "variableType": 4,
+                    "type": "Dictionary"
+                  },
+                  "isActionBlockWorkingVar": false,
+                  "isLocalVar": true,
+                  "isSecure": false,
+                  "m_booleanValue": true,
+                  "m_decimalValue": 0.0,
+                  "m_intValue": 0,
+                  "m_name": "hasSkip",
+                  "m_stringValue": "",
+                  "m_type": 0,
+                  "supportsInput": true,
+                  "supportsOutput": true
+                },
+                "m_SIGUID": -3740951271784247648,
+                "m_classType": "MacroDroidVariableConstraint",
+                "m_constraintList": [],
+                "m_isDisabled": false,
+                "m_isOrCondition": false
+              }
+            ],
+            "m_isDisabled": false,
+            "m_isOrCondition": false
+          }
+        ],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "action": 0,
+        "uiInteractionConfiguration": {
+          "blocking": false,
+          "checkOverlays": false,
+          "clickOption": 1,
+          "longClick": false,
+          "textContent": "Skip",
+          "textMatchOption": 1,
+          "xyPercentages": false,
+          "xyPoint": {
+            "x": 0,
+            "y": 0
+          },
+          "type": "Click"
+        },
+        "m_SIGUID": -8645869284409959770,
+        "m_classType": "UIInteractionAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_delayInMilliSeconds": 0,
+        "m_delayInSeconds": 1,
+        "m_useAlarm": true,
+        "unitForVariables": 0,
+        "m_SIGUID": -4205363381690679165,
+        "m_classType": "PauseAction",
+        "m_constraintList": [],
+        "m_isDisabled": false,
+        "m_isOrCondition": false
+      },
+      {
+        "m_SIGUID": -2303011099776652812,
+        "m_classType": "EndIfAction",
         "m_constraintList": [],
         "m_isDisabled": false,
         "m_isOrCondition": false
